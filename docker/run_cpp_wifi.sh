@@ -3,5 +3,5 @@
 #./build_docker_image.sh dev_cpp_wifi
 docker run \
 	-it \
-	-v ${HOME}/Projects:/home/$USER/Projects dev_cpp_wifi
+	-v ${HOME}:/home/$USER dev_cpp_wifi
 
